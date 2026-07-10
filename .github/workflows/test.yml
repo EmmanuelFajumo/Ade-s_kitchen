@@ -1,8 +1,7 @@
 name: a test workflow
 'on':
   push:
-    branches:
-      -[' master']
+    branches: ['master']
 jobs:
   testing:
     runs-on: ubuntu-latest
@@ -13,3 +12,4 @@ jobs:
       #step 2
       - name: tell people goodbye
         run: echo "Goodbye class"
+
