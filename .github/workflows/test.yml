@@ -2,7 +2,7 @@ name: a test workflow
 'on':
   push:
     branches:
-      - main
+      -[' master']
 jobs:
   testing:
     runs-on: ubuntu-latest
